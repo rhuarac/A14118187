@@ -10,7 +10,9 @@ namespace a14118187
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Mensaje de prueba");
+            //Console.Write("Comenzar");
+            ATM obj = new ATM();
+            obj.comenzar();
         }
     }
 }
